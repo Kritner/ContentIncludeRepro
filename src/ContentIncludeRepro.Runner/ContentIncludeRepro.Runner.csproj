@@ -13,4 +13,8 @@
     <Folder Include="dlls\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include=".\dlls\**\*.dll" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always" />
+  </ItemGroup>
+
 </Project>
