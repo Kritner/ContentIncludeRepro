@@ -8,6 +8,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentIncludeRepo.Interfaces", "src\ContentIncludeRepo.Interfaces\ContentIncludeRepo.Interfaces.csproj", "{5D38FC1E-9BFC-4FB5-A18C-A3F695D36806}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentIncludeRepo.Runner", "src\ContentIncludeRepo.Runner\ContentIncludeRepo.Runner.csproj", "{2089B4C1-2D33-4F67-B82E-FBAF7026251C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D522A61-9F72-4419-8001-896191DC03A9} = {4D522A61-9F72-4419-8001-896191DC03A9}
+		{A904C1F0-25E4-40C0-9CBB-31A08C02909E} = {A904C1F0-25E4-40C0-9CBB-31A08C02909E}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentIncludeRepro.ProjectA", "src\ContentIncludeRepro.ProjectA\ContentIncludeRepro.ProjectA.csproj", "{A904C1F0-25E4-40C0-9CBB-31A08C02909E}"
 EndProject
