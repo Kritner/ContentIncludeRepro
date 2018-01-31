@@ -12,6 +12,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentIncludeRepro.Interfaces", "src\ContentIncludeRepro.Interfaces\ContentIncludeRepro.Interfaces.csproj", "{E2C4903D-04E5-4985-A6FC-265E5C4DA314}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentIncludeRepro.Runner", "src\ContentIncludeRepro.Runner\ContentIncludeRepro.Runner.csproj", "{AC1EBFDF-7217-4E4E-9739-D532F5A724C9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D522A61-9F72-4419-8001-896191DC03A9} = {4D522A61-9F72-4419-8001-896191DC03A9}
+		{A904C1F0-25E4-40C0-9CBB-31A08C02909E} = {A904C1F0-25E4-40C0-9CBB-31A08C02909E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
