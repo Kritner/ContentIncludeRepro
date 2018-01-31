@@ -4,8 +4,12 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="SET dropLocation=dlls\&#xD;&#xA;&#xD;&#xA;xcopy &quot;$(TargetPath)&quot; &quot;$(ProjectDir)..\ContentIncludeRepro.Runner\%dropLocation%&quot; /y /d /i" />
+  </Target>
+
   <ItemGroup>
-    <ProjectReference Include="..\ContentIncludeRepo.Interfaces\ContentIncludeRepo.Interfaces.csproj" />
+    <ProjectReference Include="..\ContentIncludeRepro.Interfaces\ContentIncludeRepro.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

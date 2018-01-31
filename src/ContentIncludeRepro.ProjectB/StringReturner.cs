@@ -1,4 +1,4 @@
-﻿using ContentIncludeRepo.Interfaces;
+﻿using ContentIncludeRepro.Interfaces;
 
 namespace ContentIncludeRepro.ProjectB
 {

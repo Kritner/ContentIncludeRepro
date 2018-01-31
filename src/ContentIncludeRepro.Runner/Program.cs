@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ContentIncludeRepo.Runner
+namespace ContentIncludeRepro.Runner
 {
     class Program
     {

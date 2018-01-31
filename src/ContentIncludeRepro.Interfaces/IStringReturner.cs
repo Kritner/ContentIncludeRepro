@@ -1,4 +1,4 @@
-﻿namespace ContentIncludeRepo.Interfaces
+﻿namespace ContentIncludeRepro.Interfaces
 {
     public interface IStringReturner
     {
